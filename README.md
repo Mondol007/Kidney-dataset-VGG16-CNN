@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project applies a Convolutional Neural Network & VGG16 CNN to classify images from a kidney dataset. The model is trained to detect and differentiate kidney-related conditions through image analysis, providing an efficient approach to medical image classification.
+This project applied a Convolutional Neural Network & VGG16 CNN to classify images from a kidney dataset. The model was trained to detect and differentiate kidney-related conditions through image analysis, providing an efficient approach to medical image classification.
 
 ## Project Goals
 
@@ -19,9 +19,9 @@ The CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone contains **12,446 records**. These
 ## Methodology
 
 ### 1. **Data Preprocessing**
-- **Rescaling Pixel Values**: All datasets (training, testing, and validation) are processed using ImageDataGenerator, which rescales pixel values from 0-255 to 0-1 by dividing by 255. This normalization helps improve model convergence during training.
-- **Image Size Adjustment**: Images are resized to a target size of (180, 180) pixels. This standardization ensures that all input images have consistent dimensions, facilitating batch processing in deep-learning models.
-- **Categorical Class Encoding**: The datasets utilize class_mode='categorical', indicating that the target labels are one-hot encoded. This setup is essential for multi-class classification tasks, allowing the model to distribute probability over multiple classes.
+- **Rescaling Pixel Values**: All datasets (training, testing, and validation) were processed using ImageDataGenerator, which rescaled pixel values from 0-255 to 0-1 by dividing by 255. This normalization helps improve model convergence during training.
+- **Image Size Adjustment**: Images were resized to a target size of (180, 180) pixels. This standardization ensured that all input images had consistent dimensions, facilitating batch processing in deep-learning models.
+- **Categorical Class Encoding**: The datasets utilized class_mode='categorical', indicating that the target labels are one-hot encoded. This setup was essential for multi-class classification tasks, allowing the model to distribute probability over multiple classes.
 - **Data Splitting**: The dataset was split into **80% training**, **10% validation** and **10% testing** sets using the `train_test_split` function from scikit-learn.
 
 ### 2. **Machine Learning Models**
