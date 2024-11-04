@@ -1,4 +1,4 @@
-# Kidney disease classification using VGG16  CNN
+# Kidney Disease Classification using CNN & VGG16 CNN
 
 ## Overview
 
